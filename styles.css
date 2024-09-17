@@ -1,0 +1,81 @@
+/* Estilo básico para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Estilo do título principal */
+h1 {
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Botão para carregar jogadores */
+button {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Container da tabela */
+#playerTableContainer {
+    max-width: 100%;
+    overflow-x: auto;
+    margin: 0 auto;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho da tabela */
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Cores da linha do cabeçalho */
+th {
+    background-color: #f4f4f4;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Estilo para linhas alternadas da tabela */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilo de erro */
+.error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
